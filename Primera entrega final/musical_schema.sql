@@ -14,8 +14,7 @@ CREATE TABLE PISTAS (
     titulo VARCHAR(255),
     letra TEXT,
     archivo VARCHAR(255) NOT NULL,
-    reproducciones INT,
-    id_genero INT
+    reproducciones INT
 );
 
 -- una pista puede tener muchos generos y un genero puede es utilizado por muchas pistas, por eso la tabla GENEROSxPISTAS
